@@ -1,0 +1,193 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'tellural';
+	src: url('../webfonts/tellural/tellural-webfont.eot');
+	src: url('../webfonts/tellural/tellural-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../webfonts/tellural/tellural-webfont.woff') format('woff'),
+		url('../webfonts/tellural/tellural-webfont.ttf') format('truetype'),
+		url('../webfonts/tellural/tellural-webfont.svg') format('svg');
+}
+@font-face {
+	font-family: 'tellural-bold';
+	src: url('../webfonts/tellural_bold/tellural_bold-webfont.eot');
+	src: url('../webfonts/tellural_bold/tellural_bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../webfonts/tellural_bold/tellural_bold-webfont.woff') format('woff'),
+		url('../webfonts/tellural_bold/tellural_bold-webfont.ttf') format('truetype'),
+		url('../webfonts/tellural_bold/tellural_bold-webfont.svg') format('svg');
+}
+
+* {
+    vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+body{background-color:#000;color:#555757}
+header {
+	width: 100%;
+	background-color:#FFF;	
+}
+#h-content{
+	width: 1290px;
+	margin-left:auto;
+	margin-right:auto;	
+	overflow:auto;
+	padding:0.4em;
+	}
+#logo{float:left;}
+.idioma{float:left;
+	font-family:tellural-bold;
+	margin-left:70px;
+	margin-right:180px;
+	margin-top:10px;
+	}
+.btn-header{
+	padding:0.7em;
+	background-color:#03a6dc;
+	border-bottom: solid 3px #0390bf;
+	border-radius:4px;
+	color:#FFF;
+	font-family:tellural;
+	cursor:pointer;
+	margin-right:8px;
+	float:left;
+	}
+#redes{
+	float:left;
+	margin-left:10px;
+	margin-right:14px;
+	}
+.fono{
+	float:left;
+	padding:0.6em;
+	background-color:#ff576b;
+	color:#FFF;
+	font-family:tellural-bold;
+	border-radius:4px;
+	}
+/*=====================================================*/	
+#content{
+	width: 100%;
+	background-color: #d5e3e6;
+	background-image: url(../images/jardin.png);
+	background-repeat: no-repeat;
+	background-position: left 270px;
+	}
+.c-content{
+	width: 1290px;
+	margin-left:auto;
+	margin-right:auto;	
+	overflow:auto;
+	padding-top:5em;
+	}
+	
+#letrero{
+	float:left;
+	margin-top:270px;
+	margin-left:20px;
+	}
+#persona{
+	float:left;	
+	margin-left:-40px;
+	}
+#botones{
+/*	background-color:#999;*/
+	float:left;
+	width:800px;
+	height:545px;
+	margin-top:-40px;
+	}
+.opciones{
+	float:left;
+	width:800px;
+	}
+.opcion{
+	float:left;
+	height:114px;
+	width:320px;	
+	}
+.opcion .boton{float:left;margin-right:8px;}
+.opcion h1{
+	font-family:tellural-bold;
+	font-size:22px;
+	padding-top:19px;	
+	}
+.opcion p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	}
+.boton1{margin-left:2px;margin-top:10px;cursor:pointer;}
+.boton2{margin-left:10px;margin-top:70px;cursor:pointer;}
+.boton3{margin-left:110px;margin-top:40px;cursor:pointer;}
+.boton4{margin-left:50px;margin-top:15px;cursor:pointer;}
+.boton5{margin-left:70px;margin-top:15px;cursor:pointer;}
+.boton6{margin-left:50px;margin-top:45px;}
+
+.opcion .text1{
+	font-family:tellural-bold;
+	font-size:30px;
+	color:#03a6dc;
+	}
+.opcion .text2{
+	font-family:tellural-bold;
+	font-size:45px;
+	color:#03a6dc;
+	}
+
+#sub-content{
+	width:100%;
+	height:130px;
+	margin-top:-100px;
+	background-color:#0975ad;
+	border-bottom:solid 6px #239edd;
+	}
+.btn-content{
+	background-color:#ffa800;
+	padding:1.2em;
+	font-family:tellural;
+	font-size:16px;
+	color:#FFF;
+	border-radius:4px;
+	cursor:pointer;
+	border-bottom: solid 3px #e38307;
+	float:left;
+	margin-left:400px;
+	margin-top:-40px;
+	width:200px;
+	}
+	
+/*==============================================*/
+footer{
+	width:100%;
+	background-color:#118ac8;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+.f-content{
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;	
+	overflow:auto;
+	padding:1.5em;	
+	}
+.manya{
+	float:left;
+	width:500px;
+	}
+.l-manya{float:left;}
+.manya p{float:left;margin-top:5px;margin-left:5px;}
+.f-opt{
+	float:right;
+	width:500px;}
+.f-opt p{text-align:right}
+
