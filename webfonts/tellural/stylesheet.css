@@ -1,8 +1,0 @@
-@font-face {
-	font-family: 'tellural';
-	src: url('tellural-webfont.eot');
-	src: url('tellural-webfont.eot?#iefix') format('embedded-opentype'),
-		url('tellural-webfont.woff') format('woff'),
-		url('tellural-webfont.ttf') format('truetype'),
-		url('tellural-webfont.svg') format('svg');
-}
