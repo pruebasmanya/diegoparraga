@@ -1,0 +1,99 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'tellural';
+	src: url('../fonts/tellural/tellural-webfont.eot');
+	src: url('../fonts/tellural/tellural-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/tellural/tellural-webfont.woff') format('woff'),
+		url('../fonts/tellural/tellural-webfont.ttf') format('truetype'),
+		url('../fonts/tellural/tellural-webfont.svg') format('svg');
+}
+@font-face {
+	font-family: 'tellural-bold';
+	src: url('../fonts/tellural_bold/tellural_bold-webfont.eot');
+	src: url('../fonts/tellural_bold/tellural_bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/tellural_bold/tellural_bold-webfont.woff') format('woff'),
+		url('../fonts/tellural_bold/tellural_bold-webfont.ttf') format('truetype'),
+		url('../fonts/tellural_bold/tellural_bold-webfont.svg') format('svg');
+}
+
+* {
+    vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+body{color:#555757;width: 100%;}
+
+
+ul.social li a{
+	background-image:url(../images/social.png);
+	display:block;
+	width:43px;
+	height:44px;
+	margin-right: -10px;
+	}
+#twitter{	background-position: 0px -273px;}
+#twitter:hover{background-position: 0px -218px;}
+#facebook{background-position: 0px 0px;}
+#facebook:hover{background-position: 0px -108px;}
+#skype{background-position: 0px -54px;}
+#skype:hover{background-position: 0px -163px;}
+
+.barra{padding: 7px;margin-bottom: 0px;}
+/*fin de estilos de navbar*/
+
+.interno2{padding-top: 0px;padding-bottom: 0px;}
+
+.interno{
+	padding: 0px;margin:0px;
+}
+.interno h1{
+	font-family:tellural-bold;
+}
+.interno p{
+	font-family:Verdana, Geneva, sans-serif;
+}
+.interno .text1{
+	font-family:tellural-bold;
+	color:#03a6dc;
+	margin-bottom: 0px;
+	}
+.interno .text2{
+	font-family:tellural-bold;
+	color:#03a6dc;
+	padding-top: 0px;
+	}
+.btn_abajo:hover{color:#FFF;}
+.btn_abajo:focus{color:#FFF;}
+.fondo{
+	width: 100%;
+	background-color: #D5E3E6;
+}
+.fondo2{
+	background-color: #0975AD;	
+	border-bottom:solid 6px #239edd;
+}
+.fondo3{
+	background-color: #118AC8;
+	color: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding: 15px 0px;
+}
+.fondo3 .l-manya{float:left;}
+.fondo3 .manya{
+	float:left;
+	margin-top:5px;
+	margin-left:5px;	
+}
+.fondo3 .manya3{text-align: right;}
+
